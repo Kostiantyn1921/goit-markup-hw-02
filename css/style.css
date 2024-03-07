@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", "Raleway", sans-serif;
     width: 100%;
     margin: auto;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 header {
@@ -17,14 +19,16 @@ header {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    font-family: "Raleway", sans-serif;
     gap: 0px;
     text-decoration: none;
     text-transform: uppercase;
     margin: auto;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 
 .logo-web-1 {
@@ -34,7 +38,14 @@ header {
     flex-direction: row;
     color: #4D5AE5;
 }
-
+.logo-web-2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
 nav {
     display: flex;
     align-items: flex-start;
@@ -45,13 +56,17 @@ nav {
     margin: auto;             
 }
 
-.nav-elem {
+.nav-element {
     padding-right: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.nav-element :hover {
+    color: #404bbf;
 }
 
 address {
@@ -142,6 +157,12 @@ button {
     padding-right: 24px;
 }
 
+.option-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
 .team {
     background-color: #f4f4fd;
     padding-bottom: 120px;
@@ -162,13 +183,21 @@ button {
     width: 264px;
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background-color: #fff;
+    background-color: #FFFFFF;
+}
+
+.team-img {
+    width: 264px;
+}
+
+.team-title-main{
+
 }
 
 .team-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -211,6 +240,7 @@ h3 {
 
 .portfolio-title {
     padding-bottom: 48px;
+    line-height: 1.11;
 }
 
 .container {
@@ -262,7 +292,7 @@ footer {
     padding-right: auto;
 }
 
-.logo-web-2 {
+.logo-web-3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
