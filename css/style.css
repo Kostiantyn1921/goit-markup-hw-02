@@ -1,8 +1,9 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 100%;
     margin: auto;
-    color: #434455;
+    color: #434455;    
     background-color: #FFFFFF;
 }
 
@@ -15,6 +16,7 @@ header {
 }
 
 .logo{
+    color: #4d5ae5;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -28,17 +30,9 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
 }
 
-.logo-web-1 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    color: #4D5AE5;
-}
-.logo-web-2 {
+.logo-web-black {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -85,7 +79,7 @@ address {
 
 a {
     text-decoration: none;
-    color:  #2e2f42;
+    
 }
 
 a:active {
@@ -117,7 +111,7 @@ ul {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -140,6 +134,19 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     padding: 16px 32px;
+}
+
+button :hover {
+    background-color: #404BBF;
+}
+
+button :focus {
+    background-color: #404BBF;
+}
+
+.main-button {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .opition {
@@ -191,7 +198,13 @@ button {
 }
 
 .team-title-main{
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .team-title {
@@ -292,7 +305,7 @@ footer {
     padding-right: auto;
 }
 
-.logo-web-3 {
+.logo-web-white {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
