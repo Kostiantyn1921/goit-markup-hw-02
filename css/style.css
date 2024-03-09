@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
-    width: 100%;
+
     margin: auto;
     color: #434455;    
     background-color: #FFFFFF;
@@ -17,12 +17,8 @@ header {
 
 .logo{
     color: #4d5ae5;
-    display: flex;
-    align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
     font-family: "Raleway", sans-serif;
-    gap: 0px;
     text-decoration: none;
     text-transform: uppercase;
     margin: auto;
@@ -30,6 +26,10 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+}
+
+span {
+    color: #2e2f42;
 }
 
 .logo-web-black {
@@ -45,7 +45,6 @@ nav {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 40px;
     color: #2e2f42;  
     margin: auto;             
 }
@@ -72,15 +71,7 @@ address {
     font-style: normal;
 }   
 
-.address-elem:hover {
-    color:#404bbf;
-}
-
-.address-elem:focus {
-    color:#404bbf;
-}
-
-.address-elem {
+.address-element {
     padding-right: 40px; 
     font-weight: 400;
     font-size: 16px;
@@ -88,6 +79,30 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
     font-family: "Roboto", sans-serif;
+}
+
+.mail {
+    color: #434455;
+}
+
+.mail:hover {
+    color:#404bbf;
+}
+
+.mail:focus {
+    color:#404bbf;
+}
+
+.telefon { 
+    color: #434455;
+}
+
+.telefon:hover {
+    color:#404bbf;
+}
+
+.telefon:focus {
+    color:#404bbf;
 }
 
 a {
@@ -145,7 +160,6 @@ button {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 10px;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
@@ -193,8 +207,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    gap: 32px; 
+    flex-direction: row; 
 }
 
 .team-row-block {   
@@ -285,6 +298,14 @@ h3 {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.container-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 360px;   
 }
 
 .container-image {
@@ -309,10 +330,6 @@ h3 {
     align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.container-text {
-    width: 360px;
 }
 
 footer {
