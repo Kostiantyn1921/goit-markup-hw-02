@@ -1,7 +1,6 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
-
     margin: auto;
     color: #434455;    
     background-color: #FFFFFF;
@@ -13,6 +12,14 @@ header {
     justify-content: flex-start;   
     margin-top: 24px;
     margin-bottom: 24px;                                                                                                                                                                                                                                              
+}
+
+#logo {
+    color: #4d5ae5;
+}   
+
+#logo-black {
+    color: #2e2f42;
 }
 
 .logo{
@@ -208,6 +215,10 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: row; 
+}
+
+#team-block {
+    background-color: #FFFFFF;
 }
 
 .team-row-block {   
