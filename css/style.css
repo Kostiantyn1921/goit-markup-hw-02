@@ -7,8 +7,6 @@ body {
 }
 
 header {
-    display: flex;   
-    align-items:center;
     justify-content: flex-start;   
     margin-top: 24px;
     margin-bottom: 24px;                                                                                                                                                                                                                                              
@@ -48,8 +46,6 @@ span {
     color: #2e2f42;
 }
 nav {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     color: #2e2f42;  
@@ -129,16 +125,11 @@ a:visited {
 
 ul {
     list-style-type:  none;
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
 }
 
 .main-section {
     background-color: #2e2f42;
-    display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-top: 188px;
@@ -186,9 +177,6 @@ button {
 }
 
 .option {
-    width: 1440px;
-    height: 104px;
-    display: flex;
     justify-content: center;
     padding-top: 120px;
     padding-left: 156px;
@@ -213,8 +201,6 @@ button {
 }
 
 .team-row {
-    display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row; 
 }
@@ -226,14 +212,12 @@ button {
 .team-row-block {   
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #FFFFFF;
 }
 
 .team-img {
-    width: 264px;
+
 }
 
 .team-title-main{
@@ -296,15 +280,12 @@ h3 {
 }
 
 .container {
-    display: flex;
     flex-wrap: wrap;
 }
 
 .container-item {
     flex-basis: 30%;
     background-color: #fff;
-    
-    height: 420px;
     padding-left: 24px;
     padding-bottom: 24px;
     padding-top: 24px;
@@ -326,19 +307,14 @@ h3 {
 }
 
 .container-block {
-    display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;   
-    width: 360px;
-    height: 120px;
 }
 
 .container-title {
-    width: 360px;
     justify-content: center;
     align-items: center;
     line-height: 1.5;
@@ -367,8 +343,6 @@ footer {
 }
 
 .footer-text {
-    width: 264px;
-    height: 72px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
