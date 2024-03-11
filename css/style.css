@@ -63,11 +63,15 @@ nav {
     letter-spacing: 0.02em; 
 }
 
-.nav-element:focus {
+.nav-link {
+   color: #2e2f42;
+}
+
+.nav-link:focus {
     color: #404bbf;
 }
 
-.nav-element:hover {
+.nav-link:hover {
     color: #404bbf;
 }
 
@@ -154,7 +158,6 @@ button:focus {
 
 button {
     justify-content: flex-start;
-    border-radius: 4px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -272,7 +275,7 @@ h3 {
 }
 
 .container-image {
-    border: 1px solid #e7e9fc;
+    
 }
 
 .container-block {
