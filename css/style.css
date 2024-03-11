@@ -118,8 +118,7 @@ address {
 }
 
 a {
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 a:active {
@@ -169,14 +168,11 @@ button {
 
 .main-button {
     font-family: "Roboto", sans-serif;
-    cursor: pointer;
+    
 }
 
 .option {
     justify-content: center;
-}
-
-.option-block {
 }
 
 .option-text {
@@ -199,10 +195,6 @@ button {
 
 .team-row-block {   
     background-color: #FFFFFF;
-}
-
-.team-img {
-
 }
 
 .team-title-main{
@@ -251,10 +243,6 @@ h3 {
     color: #2e2f42;
 }
 
-.portfolio {
-
-}
-
 .portfolio-title {
     line-height: 1.11;
 }
@@ -273,10 +261,6 @@ h3 {
 .container-text {
     line-height: 1.5;
     letter-spacing: 0.02em;      
-}
-
-.container-image {
-    
 }
 
 .container-block {
