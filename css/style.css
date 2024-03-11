@@ -97,11 +97,11 @@ address {
     color: #434455;
 }
 
-.mail:hover {
+#mail:hover {
     color:#404bbf;
 }
 
-.mail:focus {
+#mail:focus {
     color:#404bbf;
 }
 
@@ -109,11 +109,11 @@ address {
     color: #434455;
 }
 
-.telefon:hover {
+#telefon:hover {
     color:#404bbf;
 }
 
-.telefon:focus {
+#telefon:focus {
     color:#404bbf;
 }
 
