@@ -47,7 +47,6 @@ span {
 }
 nav {
     justify-content: flex-start;
-    flex-direction: row;
     color: #2e2f42;  
     margin: auto;             
 }
@@ -56,11 +55,15 @@ nav {
 }
 
 .nav-element {
-    padding-right: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
+    color: #434455;
+}
+
+#address {
+    color: #434455;
 }
 
 .nav-link {
@@ -134,7 +137,6 @@ ul {
 .main-section {
     background-color: #2e2f42;
     justify-content: center;
-    flex-direction: column;
 }
 
 h1 {
@@ -144,8 +146,6 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
-    height: 120px;
 }
 
 button:hover {
