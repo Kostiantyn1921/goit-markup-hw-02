@@ -45,13 +45,15 @@ span {
     text-transform: uppercase;
     color: #2e2f42;
 }
+
 nav {
     justify-content: flex-start;
     color: #2e2f42;  
     margin: auto;             
 }
-#nav {
-    color: #2e2f42;
+
+#address {
+    color: #434455;
 }
 
 .nav-element {
@@ -62,12 +64,10 @@ nav {
     color: #434455;
 }
 
-#address {
-    color: #434455;
-}
+
 
 .nav-link {
-   color: #2e2f42;
+    color: #2e2f42;
 }
 
 .nav-link:focus {
@@ -81,6 +81,7 @@ nav {
 address {
     margin: auto;
     font-style: normal;
+    color: #434455;
 }   
 
 .address-element {
@@ -92,7 +93,7 @@ address {
     font-family: "Roboto", sans-serif;
 }
 
-.mail {
+#mail {
     color: #434455;
 }
 
@@ -104,7 +105,7 @@ address {
     color:#404bbf;
 }
 
-.telefon     { 
+#telefon     { 
     color: #434455;
 }
 
