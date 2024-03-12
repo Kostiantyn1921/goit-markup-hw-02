@@ -1,15 +1,12 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
-    margin: auto;
     color: #434455;    
     background-color: #FFFFFF;
 }
 
 header {
-    justify-content: flex-start;   
-    margin-top: 24px;
-    margin-bottom: 24px;                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                             
 }
 
 #logo {
@@ -22,11 +19,9 @@ header {
 
 .logo{
     color: #4d5ae5;
-    justify-content: flex-start;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    margin: auto;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -47,9 +42,7 @@ span {
 }
 
 nav {
-    justify-content: flex-start;
-    color: #2e2f42;  
-    margin: auto;             
+    color: #2e2f42;              
 }
 
 #address {
@@ -79,7 +72,6 @@ nav {
 }
 
 address {
-    margin: auto;
     font-style: normal;
     color: #434455;
 }   
@@ -131,12 +123,10 @@ a:visited {
 
 ul {
     list-style-type:  none;
-    justify-content: flex-start;
 }
 
 .main-section {
     background-color: #2e2f42;
-    justify-content: center;
 }
 
 h1 {
@@ -168,11 +158,11 @@ button {
 
 .main-button {
     font-family: "Roboto", sans-serif;
-    
+    cursor: pointer;    
 }
 
 .option {
-    justify-content: center;
+
 }
 
 .option-text {
@@ -186,7 +176,7 @@ button {
 }
 
 .team-row {
-    justify-content: center;
+
 }
 
 #team-block {
@@ -264,7 +254,7 @@ h3 {
 }
 
 .container-block {
-    justify-content: center;
+
 }
 
 .container-title {
