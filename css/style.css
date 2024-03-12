@@ -239,7 +239,6 @@ h3 {
 }
 
 .container-title {
-    align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -267,5 +266,4 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    
 }
