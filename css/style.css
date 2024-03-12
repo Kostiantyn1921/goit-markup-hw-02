@@ -5,10 +5,6 @@ body {
     background-color: #FFFFFF;
 }
 
-header {
-                                                                                                                                                                                                                                             
-}
-
 #logo {
     color: #4d5ae5;
 }   
@@ -56,8 +52,6 @@ nav {
     letter-spacing: 0.02em; 
     color: #434455;
 }
-
-
 
 .nav-link {
     color: #2e2f42;
@@ -147,7 +141,6 @@ button:focus {
 }
 
 button {
-    justify-content: flex-start;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -161,10 +154,6 @@ button {
     cursor: pointer;    
 }
 
-.option {
-
-}
-
 .option-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -173,10 +162,6 @@ button {
 
 .team {
     background-color: #f4f4fd;
-}
-
-.team-row {
-
 }
 
 #team-block {
@@ -253,12 +238,7 @@ h3 {
     letter-spacing: 0.02em;      
 }
 
-.container-block {
-
-}
-
 .container-title {
-    justify-content: center;
     align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
